@@ -52,3 +52,7 @@ class UserAdmin(BaseUserAdmin):
 
 
 admin.site.register(models.User, UserAdmin)
+admin.site.register(models.Accessory)
+admin.site.register(models.Color)
+admin.site.register(models.VehicleModel)
+admin.site.register(models.Vehicle)
