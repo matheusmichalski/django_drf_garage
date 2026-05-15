@@ -57,7 +57,7 @@ class Migration(migrations.Migration):
             ],
             options={
                 "verbose_name": "Usuário",
-                "verbose_name_plural": "Usuários",
+                "verbose_name_plural": "users",
             },
             managers=[
                 ("objects", core.models.user.UserManager()),
